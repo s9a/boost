@@ -1,0 +1,6 @@
+::selection { color: var(--oo); background: darkviolet }
+:any-link { color: #212; background-color: var(--oo); --oo: deepskyblue }
+:focus { box-shadow: 0 0 0 1ch mediumpurple }
+.oo { color: #212; background-color: var(--oo); --oo: #e5e303 }
+.ooo { color: #212; background-color: var(--oo); --oo: turquoise }
+.oooo { color: #212; background-color: var(--oo); --oo: #fab }

@@ -1,0 +1,17 @@
+html {
+  font-size: max(3ch, 3vmin + 2vmax + 1pt);
+}
+
+body {
+  margin: 0;
+  padding: 1em;
+  overflow-wrap: anywhere;
+}
+
+:focus {
+  outline: thick groove;
+}
+
+:any-link:hover {
+  text-decoration-style: double;
+}

@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  padding: 1em;
+  padding: 3em 1em;
   overflow-wrap: anywhere;
 }
 
@@ -12,6 +12,39 @@ body {
   outline: thick groove;
 }
 
+:any-link {
+  text-decoration-style: dotted;
+}
+
 :any-link:hover {
-  text-decoration-style: double;
+  text-decoration-style: wavy;
+}
+
+article {
+  contain: layout;
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+h1 {
+  contain: layout;
+  display: flex;
+  font-size: 1.618em;
+  font-weight: 500;
+}
+
+h1 a {
+  display: inline-flex;
+}
+
+@media (orientation: portrait) {
+  h1 {
+    margin: auto;
+    flex-flow: row-reverse;
+    writing-mode: vertical-lr;
+  }
+  
+  p {
+    writing-mode: vertical-lr;
+  }
 }

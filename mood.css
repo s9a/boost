@@ -1,0 +1,22 @@
+:root {
+  --gel: #f8d;
+  --quo: turquoise;
+  --sky: skyblue;
+  --ssh: #fab;
+  --www: deepskyblue;
+  --zap: #e5e303;
+  --oo: seashell;
+}
+
+::selection { color: var(--oo); background: darkviolet }
+:any-link { color: var(--oo); background-color: #212 }
+:focus { box-shadow: 0 0 0 1ch mediumpurple }
+
+.gel { color: #212; background-color: var(--oo); --oo: var(--gel) }
+.quo { color: #212; background-color: var(--oo); --oo: var(--quo) }
+.sky { color: #212; background-color: var(--oo); --oo: var(--sky) }
+.ssh { color: #212; background-color: var(--oo); --oo: var(--ssh) }
+.www { color: #212; background-color: var(--oo); --oo: var(--www) }
+.zap { color: #212; background-color: var(--oo); --oo: var(--zap) }
+
+
